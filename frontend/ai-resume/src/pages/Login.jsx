@@ -33,7 +33,7 @@ export default function Login() {
       <div style={styles.left} className="login-left">
         <div style={styles.leftInner}>
           <div style={styles.logo} onClick={() => navigate("/")}>
-            <span style={styles.logoDot} /> Rōsni
+            <span style={styles.logoDot} /> AI-Resume-Analyzer
           </div>
           <h1 style={styles.quote}>
             "Your resume tells a story.<br />
@@ -51,7 +51,7 @@ export default function Login() {
       <div style={styles.right} className="login-right">
         {/* Mobile-only logo */}
         <div className="mobile-logo" onClick={() => navigate("/")}>
-          <span style={styles.logoDot} /> Rōsni
+          <span style={styles.logoDot} /> AI-Resume-Analyzer
         </div>
 
         <div style={styles.card} className="login-card">
@@ -321,7 +321,7 @@ const styles = {
 //       <div style={styles.left}>
 //         <div style={styles.leftInner}>
 //           <div style={styles.logo} onClick={() => navigate("/")}>
-//             <span style={styles.logoDot} /> Rōsni
+//             <span style={styles.logoDot} /> AI-Resume-Analyzer
 //           </div>
 //           <h1 style={styles.quote}>
 //             "Your resume tells a story.<br />
