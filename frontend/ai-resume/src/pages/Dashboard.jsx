@@ -26,7 +26,7 @@ export default function Dashboard() {
   const fetchHistory = async () => {
     setHistLoading(true);
     try {
-      const res = await api.get("/history", { headers: authHeader });
+      const res = await api.get("/history/", { headers: authHeader });
       setHistory(res.data.reverse());
     } catch {
       if (!token) navigate("/");
@@ -42,7 +42,7 @@ export default function Dashboard() {
     const form = new FormData();
     form.append("file", file);
     try {
-      const res = await api.post("/upload", form, {
+      const res = await api.post("/upload/", form, {
         headers: { ...authHeader, "Content-Type": "multipart/form-data" },
       });
       setResult(res.data);
