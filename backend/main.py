@@ -22,7 +22,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost:5173",          # local dev
-    "https://ai-resume-analyzer-job-matcher.vercel.app/",    # your vercel URL
+    "https://ai-resume-analyzer-job-matcher.vercel.app",    # your vercel URL
 ]
 
 app.add_middleware(
