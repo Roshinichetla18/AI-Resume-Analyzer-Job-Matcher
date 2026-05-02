@@ -19,7 +19,7 @@ export default function Signup() {
     setLoading(true);
     setError("");
     try {
-      await api.post("/signup", { email, password });
+      await api.post("/signup/", { email, password });
       navigate("/");
     } catch {
       setError("An account with this email already exists.");
