@@ -79,6 +79,8 @@ Users can upload resumes (PDF), and the system:
 ---
 
 ## ⚙️ Project Structure
+
+---
 AI-Resume-Analyzer-Job-Matcher/
 │
 ├── backend/
@@ -136,7 +138,7 @@ AI-Resume-Analyzer-Job-Matcher/
 
 ### 1️⃣ Clone Repository
 
-git clone https://github.com/your-username/AI-Resume-Analyzer-Job-Matcher.git
+git clone [https://github.com/your-username/AI-Resume-Analyzer-Job-Matcher.git](https://github.com/Roshinichetla18/AI-Resume-Analyzer-Job-Matcher.git)
 
 cd AI-Resume-Analyzer-Job-Matcher
 
@@ -206,7 +208,7 @@ gunicorn -k uvicorn.workers.UvicornWorker main:app
 
 ## 🧑‍💻 Author
 
-**Karthikeya Gaddam**  
+**Roshini Chetla**  
 B.Tech CSE (AI & ML)
 
 ---
