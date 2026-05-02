@@ -80,7 +80,7 @@ export default function Dashboard() {
       <aside style={styles.sidebar} className="sidebar">
         <div style={styles.sideTop}>
           <div style={styles.logo}>
-            <span style={styles.logoDot} /> Rōsni
+            <span style={styles.logoDot} /> AI-Resume-Analyzer
           </div>
           <nav style={styles.nav}>
             <button
@@ -109,7 +109,7 @@ export default function Dashboard() {
       {/* MOBILE TOP BAR */}
       <div className="mobile-topbar">
         <div style={styles.logo}>
-          <span style={styles.logoDot} /> Rōsni
+          <span style={styles.logoDot} /> AI-Resume-Analyzer
         </div>
         <div style={styles.avatar} onClick={logout} title="Sign out">
           {getUserEmail()[0].toUpperCase()}
@@ -774,7 +774,7 @@ const styles = {
 //       <aside style={styles.sidebar}>
 //         <div style={styles.sideTop}>
 //           <div style={styles.logo}>
-//             <span style={styles.logoDot} /> Rōsni
+//             <span style={styles.logoDot} /> 
 //           </div>
 //           <nav style={styles.nav}>
 //             <button
